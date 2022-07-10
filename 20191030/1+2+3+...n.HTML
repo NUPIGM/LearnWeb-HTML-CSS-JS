@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>for循环</title>
+</head>
+<script>
+//用户控制输出的次数
+var num = prompt('1+2+3+4+......请输入最后值：')
+for (var i = 0; i < num; i++) {
+    console.log('循环了' + num + '次');
+}
+document.write('循环了' + num + '次');
+var sum = 0;
+for (var i = 1; i <= num; i++) {
+    sum += i;
+}
+document.write('，和等于：' + sum);
+document.write('，平均数等于：' + sum / num);
+</script>
+
+<body>
+</body>
+
+</html>
